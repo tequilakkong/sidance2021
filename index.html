@@ -1,215 +1,246 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SIDANCE 2021</title>
-    <link rel="icon" href="assets/img/icon/sidace_favicon.png">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/icon/sidace_favicon.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-</head>
-<body>
-<div id="body_wrapper">
-    <div id="header_wrap">
+  </head>
+  <body>
+    <div id="body_wrapper">
+      <div id="header_wrap">
         <header class="align_mid1">
-            <div class="nav_area">
-                <ul class="top_menu">
-                    <li><a href="#none">VOLUNTEER</a></li>
-                    <li><a href="#none">WORKSHOP</a></li>
-                    <li><a href="#none">PRESS</a></li>
-                </ul>
-                <nav>
-                    <ul class="util_menu"> 
-                        <li><a href="#">Login</a></li>
-                        <li><a href="#">Join</a></li>
-                        <li><a href="#">Mypage</a></li>
-                        <li>
-                            <a href="#" class="language_btn" onclick="lang_open()">
-                                KO
-                                <span></span>
-                            </a>
-                        </li>
-                        <div class="lang_select">
-                            <p>KO</p>
-                            <p>EN</p>
-                        </div>
-                    </ul>
-                </nav>
-            </div>
-            <div class="gnb_area">
-                <div class="main_logo">
-                    <a href="#" alt="sidance_home">
-                        <h1 class="font_bold">SIDANCE</h1>
-                        <h2 class="font_light">Seoul International<br>
-                        Dance Festival</h2>
-                    </a>
+          <div class="nav_area">
+            <ul class="top_menu">
+              <li><a href="#none">VOLUNTEER</a></li>
+              <li><a href="#none">WORKSHOP</a></li>
+              <li><a href="#none">PRESS</a></li>
+            </ul>
+            <nav>
+              <ul class="util_menu">
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Mypage</a></li>
+                <li>
+                  <a href="#" class="language_btn" onclick="lang_open()">
+                    KO
+                    <span></span>
+                  </a>
+                </li>
+                <div class="lang_select">
+                  <p>KO</p>
+                  <p>EN</p>
                 </div>
-                <nav class="gnb">
-                    <ul class="font_regular">
-                        <li><a href="#">
-                            <span class="gnb_txt">SIDANCE</span>
-                            <span class="gnb_b"></span>
-                        </a></li>
-                        <li><a href="#">
-                            <span class="gnb_txt">프로그램</span>
-                            <span class="gnb_b"></span>
-                        </a></li>
-                        <li><a href="#">
-                            <span class="gnb_txt">공연/예매</span>
-                            <span class="gnb_b"></span>
-                        </a></li>
-                        <li><a href="#">
-                            <span class="gnb_txt">공연정보</span>
-                            <span class="gnb_b"></span>
-                        </a></li>
-                        <li><a href="#">
-                            <span class="gnb_txt">아카이브</span>
-                            <span class="gnb_b"></span>
-                        </a></li>
-                        <li><a href="#">
-                            <span class="gnb_txt">커뮤니티</span>
-                            <span class="gnb_b"></span>
-                        </a></li>
-                    </ul>
-                </nav>
-                <div class="main_search">
-                    <div class="search_box">
-                        <div class="search_top">
-                            <input type="text" name="" id="top_search" placeholder="검색어를 입력하세요">
-                        </div>
-                        <div class="search_bt">
-                            <img src="assets/img/icon/search_icon.png">
-                        </div>
-                    </div>
-                </div>
+              </ul>
+            </nav>
+          </div>
+          <div class="gnb_area">
+            <div class="main_logo">
+              <a href="#" alt="sidance_home">
+                <h1 class="font_bold">SIDANCE</h1>
+                <h2 class="font_light">
+                  Seoul International<br />
+                  Dance Festival
+                </h2>
+              </a>
             </div>
+            <nav class="gnb">
+              <ul class="font_regular">
+                <li>
+                  <a href="#">
+                    <span class="gnb_txt">SIDANCE</span>
+                    <span class="gnb_b"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="gnb_txt">프로그램</span>
+                    <span class="gnb_b"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="gnb_txt">공연/예매</span>
+                    <span class="gnb_b"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="gnb_txt">공연정보</span>
+                    <span class="gnb_b"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="gnb_txt">아카이브</span>
+                    <span class="gnb_b"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="gnb_txt">커뮤니티</span>
+                    <span class="gnb_b"></span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="main_search">
+              <div class="search_box">
+                <div class="search_top">
+                  <input type="text"
+                    id="top_search"
+                    placeholder="검색어를 입력하세요"
+                  />
+                </div>
+                <div class="search_bt">
+                  <img src="assets/img/icon/search_icon.png" />
+                </div>
+              </div>
+            </div>
+          </div>
         </header>
         <div class="gnbLayer">
-            <div class="gnbLayerInner align_mid1">
-                <ul class="sidance">
-                    <li><a href="#">개요</a></li>
-                    <li><a href="#">About<br>SIDance</a></li>
-                    <li><a href="#">참여 아티스트</a></li>
-                    <li><a href="#">조직구성</a></li>
-                    <li><a href="#">만드는 사람들</a></li>
-                    <li><a href="#">파트너</a></li>
-                </ul>
-                <ul class="program">
-                    <li><a href="#">국내초청</a></li>
-                    <li><a href="#">해외초청</a></li>
-                    <li><a href="#">후즈넥스트</a></li>
-                    <li><a href="#">기획제작</a></li>
-                    <li><a href="#">국제합작</a></li>
-                    <li><a href="#">베네룩스 특집</a></li>
-                    <li><a href="#">퀘백 댄스<br>온라인</a></li>
-                    <li><a href="#">지역무용<br>특별전</a></li>
-                    <li><a href="#">부대행사</a></li>
-                </ul>
-                <ul class="perform">
-                    <li><a href="#">공연스케줄</a></li>
-                    <li><a href="#">티켓예매</a></li>
-                    <li><a href="#">예매확인</a></li>
-                    <li><a href="#">취소/환불</a></li>
-                </ul>
-                <ul class="info">
-                    <li><a href="#">온라인<br>상영안내</a></li>
-                    <li><a href="#">관람 유의사항</a></li>
-                    <li><a href="#">오시는 길</a></li>
-                </ul>
-                <ul class="archive">
-                    <li><a href="#">역대 공연작</a></li>
-                    <li><a href="#">시댄스가 만난<br>아티스트들</a></li>
-                    <li><a href="#">갤러리</a></li>
-                    <li><a href="#">작품 프리뷰</a></li>
-                </ul>
-                <ul class="commuity">
-                    <li><a href="#">공지사항</a></li>
-                    <li><a href="#">언론보도</a></li>
-                    <li><a href="#">뉴스레터</a></li>
-                    <li><a href="#">Q&A</a></li>
-                    <li><a href="#">연수 프로그램</a></li>
-                </ul>
-            </div>
+          <div class="gnbLayerInner align_mid1">
+            <ul class="sidance">
+              <li><a href="#">개요</a></li>
+              <li>
+                <a href="#">About<br />SIDance</a>
+              </li>
+              <li><a href="#">참여 아티스트</a></li>
+              <li><a href="#">조직구성</a></li>
+              <li><a href="#">만드는 사람들</a></li>
+              <li><a href="#">파트너</a></li>
+            </ul>
+            <ul class="program">
+              <li><a href="#">국내초청</a></li>
+              <li><a href="#">해외초청</a></li>
+              <li><a href="#">후즈넥스트</a></li>
+              <li><a href="#">기획제작</a></li>
+              <li><a href="#">국제합작</a></li>
+              <li><a href="#">베네룩스 특집</a></li>
+              <li>
+                <a href="#">퀘백 댄스<br />온라인</a>
+              </li>
+              <li>
+                <a href="#">지역무용<br />특별전</a>
+              </li>
+              <li><a href="#">부대행사</a></li>
+            </ul>
+            <ul class="perform">
+              <li><a href="#">공연스케줄</a></li>
+              <li><a href="#">티켓예매</a></li>
+              <li><a href="#">예매확인</a></li>
+              <li><a href="#">취소/환불</a></li>
+            </ul>
+            <ul class="info">
+              <li>
+                <a href="#">온라인<br />상영안내</a>
+              </li>
+              <li><a href="#">관람 유의사항</a></li>
+              <li><a href="#">오시는 길</a></li>
+            </ul>
+            <ul class="archive">
+              <li><a href="#">역대 공연작</a></li>
+              <li>
+                <a href="#">시댄스가 만난<br />아티스트들</a>
+              </li>
+              <li><a href="#">갤러리</a></li>
+              <li><a href="#">작품 프리뷰</a></li>
+            </ul>
+            <ul class="commuity">
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">언론보도</a></li>
+              <li><a href="#">뉴스레터</a></li>
+              <li><a href="#">Q&A</a></li>
+              <li><a href="#">연수 프로그램</a></li>
+            </ul>
+          </div>
         </div>
-    </div>
-    <div id="content_wrap">
+      </div>
+      <div id="content_wrap">
         <section class="s1">
-            <div class="main_banner">
-                <div class="visual">
-                    <div class="thumb_swiper_wrap">
-                        <div class="swiper thumb_swiper">
-                            <ul class="swiper-wrapper">
-                                <li class="swiper-slide">
-                                    <p>
-                                        <샤하르 비냐미니 Choreography><br>
-                                        Evolve(진화)
-                                    </p>
-                                </li>
-                                <li class="swiper-slide">
-                                    <p>
-                                        <덴마크전 메테 잉바르첸><br> 
-                                        to come(extended)
-                                    </p>
-                                </li>
-                                <li class="swiper-slide">
-                                    <p>
-                                        <해외초청><br>
-                                        Club Guy & Roni - Freedom
-                                    </p>
-                                </li>
-                                <li class="swiper-slide">
-                                    <p>
-                                        <이스라엘 특별전><br>
-                                        SOL Dance Company
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="swiper visual_swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide bn1">
-                                <div class="main_txt">
-                                    <a href="#">
-                                        <p class="font_regular">샤하르 비냐미니 Choreography</p>
-                                        <p class="font_bold">Evolve(진화)</p>
-                                        <p class="font_regular">예술의전당 자유소극장</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide bn2">
-                                <div class="main_txt">
-                                    <a href="#">
-                                        <p class="font_regular">덴마크 해외초청</p>
-                                        <p class="font_bold">to come(extended)</p>
-                                        <p class="font_regular">메테 잉바르첸 확장판 단독공연</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide bn3">
-                                <div class="main_txt">
-                                    <a href="#">
-                                        <p class="font_regular">네덜란드 해외초청</p>
-                                        <p class="font_bold">Freedom<br>by Club Guy & Roni</p>
-                                        <p class="font_regular">예술의전당 CJ토월극장</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide bn4">
-                                <div class="main_txt">
-                                    <a href="#">
-                                        <p class="font_regular">이스라엘 특별전</p>
-                                        <p class="font_bold">TOML(Time of My Life)</p>
-                                        <p class="font_regular">SOL Dance Company Choreography</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          <div class="main_banner">
+            <div class="visual">
+              <div class="thumb_swiper_wrap">
+                <div class="swiper thumb_swiper">
+                  <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                      <p>
+                        <샤하르 비냐미니 Choreography><br />
+                        Evolve(진화)
+                      </p>
+                    </li>
+                    <li class="swiper-slide">
+                      <p>
+                        <덴마크전 메테 잉바르첸><br />
+                        to come(extended)
+                      </p>
+                    </li>
+                    <li class="swiper-slide">
+                      <p>
+                        <해외초청><br />
+                        Club Guy & Roni - Freedom
+                      </p>
+                    </li>
+                    <li class="swiper-slide">
+                      <p>
+                        <이스라엘 특별전><br />
+                        SOL Dance Company
+                      </p>
+                    </li>
+                  </ul>
                 </div>
-                <!-- <div class="main_img">
+              </div>
+              <div class="swiper visual_swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide bn1">
+                    <div class="main_txt">
+                      <a href="#">
+                        <p class="font_regular">샤하르 비냐미니 Choreography</p>
+                        <p class="font_bold">Evolve(진화)</p>
+                        <p class="font_regular">예술의전당 자유소극장</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide bn2">
+                    <div class="main_txt">
+                      <a href="#">
+                        <p class="font_regular">덴마크 해외초청</p>
+                        <p class="font_bold">to come(extended)</p>
+                        <p class="font_regular">
+                          메테 잉바르첸 확장판 단독공연
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide bn3">
+                    <div class="main_txt">
+                      <a href="#">
+                        <p class="font_regular">네덜란드 해외초청</p>
+                        <p class="font_bold">Freedom<br />by Club Guy & Roni</p>
+                        <p class="font_regular">예술의전당 CJ토월극장</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide bn4">
+                    <div class="main_txt">
+                      <a href="#">
+                        <p class="font_regular">이스라엘 특별전</p>
+                        <p class="font_bold">TOML(Time of My Life)</p>
+                        <p class="font_regular">
+                          SOL Dance Company Choreography
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="main_img">
                     <img src="assets/img/s01.jpeg">
                 </div>
                 <div class="main_txt">
@@ -220,287 +251,349 @@
                         <p class="font_regular">Yoann Bourgeois Choreography 특별전</p>
                     </a>
                 </div> -->
-            </div>
+          </div>
         </section>
         <section class="s2">
-            <div class="align_mid2">
-                <div class="q_menu">
-                    <div class="menu_title">
-                        <h1 class="font_title"><a href="#none">QUICK MENU</a></h1>
-                    </div>
-                    <div class="q_menu_box">
-                        <a href="#">
-                            <div>
-                            <p>티켓예매<br>& 예매확인</p>
-                            <p>티켓예매 확인 및<br> 
-                                취소 내역을<br>
-                                확인할 수 있습니다.</p>
-                            <p><img src="assets/img/icon/arrow.png"></p>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div>
-                            <p>공연일정</p>
-                            <p>날짜별 / 섹션별 공연일정을<br>
-                                알려드립니다.</p>
-                            <p><img src="assets/img/icon/arrow.png"></p>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div>
-                            <p>공연장 안내</p>
-                            <p>관람 방법 및 위치를<br>
-                                 알려드립니다.</p>
-                            <p><img src="assets/img/icon/arrow.png"></p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="notice">
-                    <div class="menu_title">
-                        <h1 class="font_title"><a href="#none">NOTICE</a></h1>
-                    </div>
-                    <div class="notice_box">
-                            <a href="#">
-                                <article>
-                                    <h2>[SIDance2022] 2022년 제4회 HOTPOT: 동아시아무용플랫폼 한국대표</h2>
-                                    <span>2022.04.20</span>
-                                </article>
-                            </a>
-                            <a href="#">
-                                <article>
-                                    <h2>[국제무용협회 한국본부] 네덜란드 현대무용 소책자, 댄싱 더치 발행</h2>
-                                    <span>2022.02.03</span>
-                                </article>
-                            </a>
-                            <a href="#">
-                                <article>
-                                    <h2>[국제무용협회 한국본부] 연수단원 모집공고</h2>
-                                    <span>2022.01.29</span>
-                                </article>
-                            </a>
-                            <a href="#">
-                                <article>
-                                    <h2>[SIDance2021] 클럽 가이&로니 ‘백조의 호수: 더 게임’ 관람방법</h2>
-                                    <span>2021.12.10</span>
-                                </article>
-                            </a>
-                            <a href="#">
-                                <article>
-                                    <h2>[SIDance2021] 유료 온라인 댄스필름 관람하는 방법</h2>
-                                    <span>2021.09.08</span>
-                                </article>
-                            </a>
-                            <a href="#">
-                                <article>
-                                    <h2>[SIDance2021] <후즈 넥스트> 및 <댄스있송> 공모결과 발표</h2>
-                                    <span>2021.08.30</span>
-                                </article>
-                            </a>
-                            <a href="#">
-                                <article>
-                                    <h2>[SIDance2021] 제24회 서울세계무용 축제 시끌이 추가모집</h2>
-                                    <span>2021.06.10</span>
-                                </article>
-                            </a>
-                    </div>
-                </div>
+          <div class="align_mid2">
+            <div class="q_menu">
+              <div class="menu_title">
+                <h1 class="font_title"><a href="#none">QUICK MENU</a></h1>
+              </div>
+              <div class="q_menu_box">
+                <a href="#">
+                  <div>
+                    <p>티켓예매<br />& 예매확인</p>
+                    <p>
+                      티켓예매 확인 및<br />
+                      취소 내역을<br />
+                      확인할 수 있습니다.
+                    </p>
+                    <p><img src="assets/img/icon/arrow.png" /></p>
+                  </div>
+                </a>
+                <a href="#">
+                  <div>
+                    <p>공연일정</p>
+                    <p>
+                      날짜별 / 섹션별 공연일정을<br />
+                      알려드립니다.
+                    </p>
+                    <p><img src="assets/img/icon/arrow.png" /></p>
+                  </div>
+                </a>
+                <a href="#">
+                  <div>
+                    <p>공연장 안내</p>
+                    <p>
+                      관람 방법 및 위치를<br />
+                      알려드립니다.
+                    </p>
+                    <p><img src="assets/img/icon/arrow.png" /></p>
+                  </div>
+                </a>
+              </div>
             </div>
+            <div class="notice">
+              <div class="menu_title">
+                <h1 class="font_title"><a href="#none">NOTICE</a></h1>
+              </div>
+              <div class="notice_box">
+                <a href="#">
+                  <article>
+                    <h2>
+                      [SIDance2022] 2022년 제4회 HOTPOT: 동아시아무용플랫폼
+                      한국대표
+                    </h2>
+                    <span>2022.04.20</span>
+                  </article>
+                </a>
+                <a href="#">
+                  <article>
+                    <h2>
+                      [국제무용협회 한국본부] 네덜란드 현대무용 소책자, 댄싱
+                      더치 발행
+                    </h2>
+                    <span>2022.02.03</span>
+                  </article>
+                </a>
+                <a href="#">
+                  <article>
+                    <h2>[국제무용협회 한국본부] 연수단원 모집공고</h2>
+                    <span>2022.01.29</span>
+                  </article>
+                </a>
+                <a href="#">
+                  <article>
+                    <h2>
+                      [SIDance2021] 클럽 가이&로니 ‘백조의 호수: 더 게임’
+                      관람방법
+                    </h2>
+                    <span>2021.12.10</span>
+                  </article>
+                </a>
+                <a href="#">
+                  <article>
+                    <h2>[SIDance2021] 유료 온라인 댄스필름 관람하는 방법</h2>
+                    <span>2021.09.08</span>
+                  </article>
+                </a>
+                <a href="#">
+                  <article>
+                    <h2>
+                      [SIDance2021] <후즈 넥스트> 및 <댄스있송> 공모결과 발표
+                    </h2>
+                    <span>2021.08.30</span>
+                  </article>
+                </a>
+                <a href="#">
+                  <article>
+                    <h2>
+                      [SIDance2021] 제24회 서울세계무용 축제 시끌이 추가모집
+                    </h2>
+                    <span>2021.06.10</span>
+                  </article>
+                </a>
+              </div>
+            </div>
+          </div>
         </section>
         <section class="s3">
-            <div class="align_mid2">
-                <div class="pg_list">
-                    <div class="menu_title">
-                        <h1 class="font_title"><a href="#none">PROGRAM LIST</a></h1>
-                    </div>
-                    <div class="list_box">
-                        <ul>
-                            <li><a href="#">
-                                <div class="img_card">
-                                    <img src="assets/img/s03_1.png" class="img_a">
-                                    <img src="assets/img/s03_1_1_c.png" class="img_b">
-                                </div>
-                                <div class="text_card">
-                                    <p>뾰족한 지렁이의 발톱</p>
-                                    <p>Sharp Claws of an Earthworm</p>
-                                    <p>퍼포밍아트 더 몸(Momm)</p>
-                                    <p>한국</p>
-                                </div>
-                            </a></li>
-                            <li><a href="#">
-                                <div class="img_card">
-                                    <img src="assets/img/s03_2.png" class="img_a">
-                                    <img src="assets/img/s03_2_1_c.png" class="img_b">
-                                </div>
-                                <div class="text_card">
-                                    <p>[베네룩스 온라인 II] 기억상실</p>
-                                    <p>[Benelux Online II] Memory Loss</p>
-                                    <p>안 판 덴 부르크</p>
-                                    <p>네덜란드</p>
-                                </div>
-                            </a></li>
-                            <li><a href="#">
-                                <div class="img_card">
-                                    <img src="assets/img/s03_3.png" class="img_a">
-                                    <img src="assets/img/s03_3_1_c.png" class="img_b">
-                                </div>
-                                <div class="text_card">
-                                    <p>[후즈넥스트] 1℃</p>
-                                    <p>[Who’s Next] 1℃</p>
-                                    <p>큐댄스 컴퍼티</p>
-                                    <p>한국</p>
-                                </div>
-                            </a></li>
-                            <li><a href="#">
-                                <div class="img_card">
-                                    <img src="assets/img/s03_4.png" class="img_a">
-                                    <img src="assets/img/s03_4_1_c.png" class="img_b">
-                                </div>
-                                <div class="text_card">
-                                    <p>에트나</p>
-                                    <p>ETNA</p>
-                                    <p>티-마이 응웬</p>
-                                    <p>벨기에</p>
-                                </div>
-                            </a></li>
-                            <li><a href="#">
-                                <div class="img_card">
-                                    <img src="assets/img/s03_5.png" class="img_a">
-                                    <img src="assets/img/s03_5_1_c.png" class="img_b">
-                                </div>
-                                <div class="text_card">
-                                    <p>[베네룩스 온라인 I] 제 3 막</p>
-                                    <p>[Benelux Online I] Third Act</p>
-                                    <p>피핑톰</p>
-                                    <p>벨기에</p>
-                                </div>
-                            </a></li>
-                            <li><a href="#">
-                                <div class="img_card">
-                                    <img src="assets/img/s03_6.png" class="img_a">
-                                    <img src="assets/img/s03_6_1_c.png" class="img_b">
-                                </div>
-                                <div class="text_card">
-                                    <p>Gizaki(Human Beings)</p>
-                                    <p>Gizaki / What’s left / Underneath</p>
-                                    <p>랄리 아이과데</p>
-                                    <p>스페인</p>
-                                </div>
-                            </a></li>
-                            <li><a href="#">
-                                <div class="img_card">
-                                    <img src="assets/img/s03_7.png" class="img_a">
-                                    <img src="assets/img/s03_7_1_c.png" class="img_b">
-                                </div>
-                                <div class="text_card">
-                                    <p><인간의 목소리>를 갈구하다</p>
-                                    <p>La voix humaine</p>
-                                    <p>오페라를 보는 새로운 시선</p>
-                                    <p>한국</p>
-                                </div>
-                            </a></li>
-                            <li><a href="#">
-                                <div class="img_card">
-                                    <img src="assets/img/s03_8.png" class="img_a">
-                                    <img src="assets/img/s03_8_1_c.png" class="img_b">
-                                </div>
-                                <div class="text_card">
-                                    <p>게임 오버</p>
-                                    <p>Game Over</p>
-                                    <p>로우 에어 (Vilnius City Dance Theatre)</p>
-                                    <p>리투아니아</p>
-                                </div>
-                            </a></li>
-                        </ul>
-                        <a href="#none" class="btn_more">MORE</a>
-                    </div>
-                </div>
+          <div class="align_mid2">
+            <div class="pg_list">
+              <div class="menu_title">
+                <h1 class="font_title"><a href="#none">PROGRAM LIST</a></h1>
+              </div>
+              <div class="list_box">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <div class="img_card">
+                        <img src="assets/img/s03_1.png" class="img_a" />
+                        <img src="assets/img/s03_1_1_c.png" class="img_b" />
+                      </div>
+                      <div class="text_card">
+                        <p>뾰족한 지렁이의 발톱</p>
+                        <p>Sharp Claws of an Earthworm</p>
+                        <p>퍼포밍아트 더 몸(Momm)</p>
+                        <p>한국</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="img_card">
+                        <img src="assets/img/s03_2.png" class="img_a" />
+                        <img src="assets/img/s03_2_1_c.png" class="img_b" />
+                      </div>
+                      <div class="text_card">
+                        <p>[베네룩스 온라인 II] 기억상실</p>
+                        <p>[Benelux Online II] Memory Loss</p>
+                        <p>안 판 덴 부르크</p>
+                        <p>네덜란드</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="img_card">
+                        <img src="assets/img/s03_3.png" class="img_a" />
+                        <img src="assets/img/s03_3_1_c.png" class="img_b" />
+                      </div>
+                      <div class="text_card">
+                        <p>[후즈넥스트] 1℃</p>
+                        <p>[Who’s Next] 1℃</p>
+                        <p>큐댄스 컴퍼티</p>
+                        <p>한국</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="img_card">
+                        <img src="assets/img/s03_4.png" class="img_a" />
+                        <img src="assets/img/s03_4_1_c.png" class="img_b" />
+                      </div>
+                      <div class="text_card">
+                        <p>에트나</p>
+                        <p>ETNA</p>
+                        <p>티-마이 응웬</p>
+                        <p>벨기에</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="img_card">
+                        <img src="assets/img/s03_5.png" class="img_a" />
+                        <img src="assets/img/s03_5_1_c.png" class="img_b" />
+                      </div>
+                      <div class="text_card">
+                        <p>[베네룩스 온라인 I] 제 3 막</p>
+                        <p>[Benelux Online I] Third Act</p>
+                        <p>피핑톰</p>
+                        <p>벨기에</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="img_card">
+                        <img src="assets/img/s03_6.png" class="img_a" />
+                        <img src="assets/img/s03_6_1_c.png" class="img_b" />
+                      </div>
+                      <div class="text_card">
+                        <p>Gizaki(Human Beings)</p>
+                        <p>Gizaki / What’s left / Underneath</p>
+                        <p>랄리 아이과데</p>
+                        <p>스페인</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="img_card">
+                        <img src="assets/img/s03_7.png" class="img_a" />
+                        <img src="assets/img/s03_7_1_c.png" class="img_b" />
+                      </div>
+                      <div class="text_card">
+                        <p><인간의 목소리>를 갈구하다</p>
+                        <p>La voix humaine</p>
+                        <p>오페라를 보는 새로운 시선</p>
+                        <p>한국</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="img_card">
+                        <img src="assets/img/s03_8.png" class="img_a" />
+                        <img src="assets/img/s03_8_1_c.png" class="img_b" />
+                      </div>
+                      <div class="text_card">
+                        <p>게임 오버</p>
+                        <p>Game Over</p>
+                        <p>로우 에어 (Vilnius City Dance Theatre)</p>
+                        <p>리투아니아</p>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+                <a href="#none" class="btn_more">MORE</a>
+              </div>
             </div>
+          </div>
         </section>
-        <section class="s4"> 
-            <div class="align_mid2">
-                <div class="sns_box">
-                    <div class="sns_txt">
-                        <p class="font_bold">FOLLOW</p>
-                        <p class="font_bold">@sidance_festival</p>
-                        <p class="font_bold">on Instagram</p>
-                    </div>
-                    <ul class="sns_img">
-                        <li><a href="#">
-                            <img src="assets/img/s04_1.jpeg">
-                        </a></li>
-                        <li><a href="#">
-                            <img src="assets/img/s04_2.jpeg">
-                        </a></li>
-                        <li><a href="#">
-                            <img src="assets/img/s04_3.jpeg">
-                        </a></li>
-                        <li><a href="#">
-                            <img src="assets/img/s04_4.jpeg">
-                        </a></li>
-                        <li><a href="#">
-                            <img src="assets/img/s04_5.jpeg">
-                        </a></li>
-                    </ul>
-                </div>
+        <section class="s4">
+          <div class="align_mid2">
+            <div class="sns_box">
+              <div class="sns_txt">
+                <p class="font_bold">FOLLOW</p>
+                <p class="font_bold">@sidance_festival</p>
+                <p class="font_bold">on Instagram</p>
+              </div>
+              <ul class="sns_img">
+                <li>
+                  <a href="#">
+                    <img src="assets/img/s04_1.jpeg" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="assets/img/s04_2.jpeg" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="assets/img/s04_3.jpeg" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="assets/img/s04_4.jpeg" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="assets/img/s04_5.jpeg" />
+                  </a>
+                </li>
+              </ul>
             </div>
+          </div>
         </section>
-        <section class="s5"> 
-            <div class="align_mid1">
-                <div class="newsletter_box">
-                    <p>NEWSLETTER</p>
-                    <p class="subscrb_box">
-                        <input type="text" id="email" placeholder="이메일을 입력해주세요">
-                        <span class="sb_bt">Subscribe</span>
-                    </p>
-                    <p>시댄스 뉴스레터를 구독해주세요.<br> 
-                        서울세계무용축제 관련 소식을 가장 빠르게 만나보실 수 있습니다.</p>
-                </div>
+        <section class="s5">
+          <div class="align_mid1">
+            <div class="newsletter_box">
+              <p>NEWSLETTER</p>
+              <p class="subscrb_box">
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="이메일을 입력해주세요"
+                />
+                <span class="sb_bt">Subscribe</span>
+              </p>
+              <p>
+                시댄스 뉴스레터를 구독해주세요.<br />
+                서울세계무용축제 관련 소식을 가장 빠르게 만나보실 수 있습니다.
+              </p>
             </div>
+          </div>
         </section>
-    </div>
-    <div id="footer_wrap">
+      </div>
+      <div id="footer_wrap">
         <footer>
-            <div class="align_mid1">
-                <div class="f1">
-                    <p>제24회 서울세계무용축제<br>
-                        The 24th Seoul International Dance Festival</p>
-                    <p>주최 국제무용협회(CID-UNESCO) 한국본부<br>
-                        주관 제24회 서울세계무용축제 조직위원회</p>    
-                    <p>Copyright ⓒ CID-UNESCO 2021. All Rights Reserved.</p>
-                </div>
-                <div class="f2">
-                    <address>
-                        <p>서울시 마포구 성미산로29 (성산동 245-15) 대성빌딩 302호</p>
-                        <p>Tel: +82 2 3216 1185</p>
-                        <p>FAX +82 2 3216 1187</p>
-                        <p>E-mail: inquiry@sidance.org</p>
-                    </address>
-                </div>
-                <div class="f3">
-                    <ul>
-                        <li><a href="#">
-                            <img src="assets/img/icon/insta_icon2.png">
-                        </a></li>
-                        <li><a href="#">
-                            <img src="assets/img/icon/facebook_icon2.png">
-                        </a></li>
-                        <li><a href="#">
-                            <img src="assets/img/icon/youtube_icon2.png">
-                        </a></li>
-                        <li><a href="#">
-                            <img src="assets/img/icon/blog_icon2.png">
-                        </a></li>
-                    </ul>
-                    <p><a href="#">개인정보처리방침</a></p>
-                    <p>Designed and developed by GYJ</p>
-                </div>
+          <div class="align_mid1">
+            <div class="f1">
+              <p>
+                제24회 서울세계무용축제<br />
+                The 24th Seoul International Dance Festival
+              </p>
+              <p>
+                주최 국제무용협회(CID-UNESCO) 한국본부<br />
+                주관 제24회 서울세계무용축제 조직위원회
+              </p>
+              <p>Copyright ⓒ CID-UNESCO 2021. All Rights Reserved.</p>
             </div>
+            <div class="f2">
+              <address>
+                <p>서울시 마포구 성미산로29 (성산동 245-15) 대성빌딩 302호</p>
+                <p>Tel: +82 2 3216 1185</p>
+                <p>FAX +82 2 3216 1187</p>
+                <p>E-mail: inquiry@sidance.org</p>
+              </address>
+            </div>
+            <div class="f3">
+              <ul>
+                <li>
+                  <a href="#">
+                    <img src="assets/img/icon/insta_icon2.png" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="assets/img/icon/facebook_icon2.png" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="assets/img/icon/youtube_icon2.png" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="assets/img/icon/blog_icon2.png" />
+                  </a>
+                </li>
+              </ul>
+              <p><a href="#">개인정보처리방침</a></p>
+              <p>Designed and developed by GYJ</p>
+            </div>
+          </div>
         </footer>
+      </div>
     </div>
-
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="assets/js/main.js"></script>
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
